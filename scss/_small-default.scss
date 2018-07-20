@@ -83,13 +83,14 @@ figure.banner {
   }
   p {padding: 1em 2%;}
 
-  .featured-work {
+  .featured-work figcaption {
+
 
   }
 
   figcaption {
     text-align: center;
-    font-weight: $normalWeight;
+    font-weight: $boldWeight;
     text-transform: uppercase;
   }
 
