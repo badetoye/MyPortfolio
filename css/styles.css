@@ -17,9 +17,15 @@ Twitter: @rich_clark
 body {
   line-height: 1; }
 
-article, aside, details, figure,
-footer, hgroup, menu, section {
-  display: inline-block; }
+article,
+aside,
+details,
+figure,
+footer,
+hgroup,
+menu,
+section {
+  display: flex; }
 
 nav ul {
   list-style: none; }
@@ -65,7 +71,7 @@ table {
 
 /* change border colour to suit your needs */
 hr {
-  display: block;
+  display: flex;
   height: 1px;
   border: 0;
   border-top: 1px solid #cccccc;
@@ -97,10 +103,8 @@ header {
   color: #bbc2ca;
   padding: 1em 4%;
   text-align: right; }
-  header img {
-    position: absolute;
-    top: 50px;
-    left: 120px; }
+  header .place-logo {
+    position: absolute; }
 
 /*-------------------NAVIGATION-----------------*/
 nav {

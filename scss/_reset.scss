@@ -20,9 +20,15 @@ body {
     line-height:1;
 }
 
-article,aside,details,figure,
-footer,hgroup,menu,section {
-    display: inline-block;
+article,
+aside,
+details,
+figure,
+footer,
+hgroup,
+menu,
+section {
+    display: flex;
 }
 
 nav ul {
@@ -78,7 +84,7 @@ table {
 
 /* change border colour to suit your needs */
 hr {
-    display:block;
+    display:flex;
     height:1px;
     border:0;
     border-top:1px solid #cccccc;
