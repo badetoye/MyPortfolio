@@ -21,7 +21,6 @@ article,
 aside,
 details,
 figure,
-footer,
 hgroup,
 menu,
 section {
@@ -180,7 +179,7 @@ footer {
   footer p {
     text-align: center;
     color: #bbc2ca;
-    font-size: 12px;
+    font-size: 14px;
     padding: 1em 0; }
 
 /*----Force an Element not to collapse----*/
