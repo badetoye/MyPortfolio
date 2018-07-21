@@ -5,18 +5,7 @@ Last Updated: 2010-09-17
 Author: Richard Clark - http://richclarkdesign.com
 Twitter: @rich_clark
 */
-html, body, div, span, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-abbr, address, cite, code,
-del, dfn, em, img, ins, kbd, q, samp,
-small, strong, sub, sup, var,
-b, i,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section, summary,
-time, mark, audio, video {
+* {
   margin: 0;
   padding: 0;
   border: 0;
@@ -28,9 +17,9 @@ time, mark, audio, video {
 body {
   line-height: 1; }
 
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
-  display: block; }
+article, aside, details, figure,
+footer, hgroup, menu, section {
+  display: inline-block; }
 
 nav ul {
   list-style: none; }
@@ -91,7 +80,7 @@ html {
   -webkit-text-size-adjust: 100%;
   -mstext-size-adjust: 100%; }
 
-/* apply a nay=tural box layout model to all elements */
+/* apply a natural box layout model to all elements */
 * {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -108,6 +97,10 @@ header {
   color: #bbc2ca;
   padding: 1em 4%;
   text-align: right; }
+  header img {
+    position: absolute;
+    top: 50px;
+    left: 120px; }
 
 /*-------------------NAVIGATION-----------------*/
 nav {
@@ -118,7 +111,7 @@ nav {
     padding: 0;
     list-style: none; }
   nav ul li {
-    float: left;
+    display: inline-block;
     width: 25%;
     border-right: 1px solid rgba(0, 0, 0, 0.3); }
   nav ul li:last-child {
@@ -161,7 +154,7 @@ h3 {
 p {
   padding: 1em 2%; }
 
-figcaption {
+.text-link {
   text-align: center;
   font-weight: 700;
   text-transform: uppercase; }
